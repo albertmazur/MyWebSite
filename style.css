@@ -1,5 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+div{
+    margin: 25px;
+}
+
 header{
     height: 70px;
+}
+
+nav{
+    text-align: right;
 }
 
 h1{
@@ -7,12 +20,13 @@ h1{
     font-size: 72px;
     float: left;
     margin: 0px;
+    font-style: italic;
 }
 
 ul{
     list-style: none;
     display: inline-block;
-    
+    text-align: right;
 }
 
 li{
