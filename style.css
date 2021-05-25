@@ -1,4 +1,21 @@
+header{
+    height: 70px;
+}
+
 h1{
     color: crimson;
     font-size: 72px;
+    float: left;
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+li{
+    display: inline;
+    margin-left: 10px;
 }
