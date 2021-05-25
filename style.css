@@ -1,26 +1,41 @@
 body{
-    background-color: #2a2a2a;
+    background-color: #000000;
     color: white;
 }
 
-div{
-    margin: 25px;
+body div{
+    margin: 0px 25px 25px 25px;
+    padding: 25px;
+    background-color: #2a2a2a;
 }
 
 header{
+    position: fixed;
+    left: 25px;
+    top: 0px;
+    width: 1150px;
     height: 70px;
-}
+    background-color: #121212;
+    padding: 15px;
 
-nav{
-    text-align: right;
 }
 
 h1{
     color: crimson;
     font-size: 72px;
+    text-shadow:  2px 2px 7px #bb3c3c;
     float: left;
     margin: 0px;
     font-style: italic;
+}
+
+h2{
+    text-shadow: 2px 2px 7px #111111;
+}
+
+nav{
+    text-align: right;
+    margin-right: 25px;
 }
 
 ul{
@@ -32,4 +47,32 @@ ul{
 li{
     display: inline;
     margin-left: 10px;
+    color: white;
+    text-decoration: none;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+
+section div div{
+    margin: 0px;
+    width: 250px;
+    float: left;
+}
+
+section div p{
+    text-align: center;
+}
+
+p.symbol{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62px;
+    text-align: center;
+}
+
+#umiejetnosci{
+    clear: both;
+}
+
