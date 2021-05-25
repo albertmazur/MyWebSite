@@ -55,6 +55,10 @@ a{
     text-decoration: none;
 }
 
+section div{
+    text-align: center;
+}
+
 section div div{
     margin: 0px;
     width: 250px;
@@ -76,3 +80,16 @@ p.symbol{
     clear: both;
 }
 
+section figure{
+    text-align: center;
+    float: left;
+}
+
+#doswiadczenie{
+    clear: both;
+}
+
+img{
+    height: 80px;
+    width: 72px;
+}
