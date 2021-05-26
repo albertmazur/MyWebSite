@@ -1,23 +1,24 @@
 body{
     background-color: #000000;
     color: white;
+
 }
 
 body div{
     margin: 0px 25px 25px 25px;
     padding: 25px;
     background-color: #2a2a2a;
+    
 }
 
 header{
     position: fixed;
-    left: 25px;
+    left: 0px;
     top: 0px;
-    width: 1150px;
+    width: 100%;
     height: 70px;
     background-color: #121212;
     padding: 15px;
-
 }
 
 h1{
@@ -29,13 +30,25 @@ h1{
     font-style: italic;
 }
 
-h2{
-    text-shadow: 2px 2px 7px #111111;
+h1 a{
+    color: inherit;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 nav{
     text-align: right;
-    margin-right: 25px;
+    margin-right: 65px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    text-shadow: 2px 2px 7px #777777;
 }
 
 ul{
@@ -50,19 +63,16 @@ li{
     color: white;
     text-decoration: none;
 }
-a{
-    color: white;
-    text-decoration: none;
-}
 
 section div{
     text-align: center;
 }
 
-section div div{
+section .egzaminy div{
+    text-align: center;
     margin: 0px;
     width: 250px;
-    float: left;
+    display: inline-block;
 }
 
 section div p{
@@ -76,17 +86,19 @@ p.symbol{
     text-align: center;
 }
 
-#umiejetnosci{
+section .skils{
+    width: 95%;
     clear: both;
 }
 
-section figure{
+section div figure{
     text-align: center;
-    float: left;
+    
+    display: inline-block;
 }
 
-#doswiadczenie{
-    clear: both;
+.doswiadczenie{
+    
 }
 
 img{
