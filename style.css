@@ -1,14 +1,18 @@
 body{
-    background-color: #000000;
+    background-color: #525e65;
     color: white;
+    font-size: 18px;
+}
 
+.main{
+    padding-top: 70px;
+    margin: 0px 40px 40px 40px;
 }
 
 body div{
     margin: 0px 25px 25px 25px;
     padding: 25px;
-    background-color: #2a2a2a;
-    
+    background-color: #222733;
 }
 
 header{
@@ -16,9 +20,9 @@ header{
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 70px;
-    background-color: #121212;
-    padding: 15px;
+    background-color: #242434;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 h1{
@@ -27,6 +31,7 @@ h1{
     text-shadow:  2px 2px 7px #bb3c3c;
     float: left;
     margin: 0px;
+    padding: 0px;
     font-style: italic;
 }
 
@@ -40,11 +45,17 @@ h1 a{
 nav{
     text-align: right;
     margin-right: 65px;
+    padding: 0px;
 }
 
 nav a{
     color: white;
     text-decoration: none;
+}
+
+nav a:hover{
+    color: crimson;
+    text-decoration: underline;
 }
 
 h2{
@@ -104,4 +115,12 @@ section div figure{
 img{
     height: 80px;
     width: 72px;
+}
+
+.git{
+    width: 120px;
+}
+
+footer{
+    background-color: #2E3445;
 }
