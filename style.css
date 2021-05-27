@@ -4,14 +4,9 @@ body{
     font-size: 18px;
 }
 
-.main{
-    padding-top: 70px;
-    margin: 0px 40px 40px 40px;
-}
-
-body div{
-    margin: 0px 25px 25px 25px;
-    padding: 25px;
+body .main{
+    padding: 70px 25px 25px 25px;
+    margin: 40px 40px 0px 40px;
     background-color: #222733;
 }
 
@@ -48,7 +43,7 @@ nav{
     padding: 0px;
 }
 
-nav a{
+a{
     color: white;
     text-decoration: none;
 }
@@ -79,9 +74,9 @@ section div{
     text-align: center;
 }
 
-section .egzaminy div{
+section .egzam div{
     text-align: center;
-    margin: 0px;
+    margin: 10px;
     width: 250px;
     display: inline-block;
 }
@@ -97,24 +92,24 @@ p.symbol{
     text-align: center;
 }
 
-section .skils{
+section .skill{
     width: 95%;
     clear: both;
 }
 
 section div figure{
     text-align: center;
-    
     display: inline-block;
-}
-
-.doswiadczenie{
-    
 }
 
 img{
     height: 80px;
-    width: 72px;
+    width: 70px;
+}
+
+img:hover{
+    height: 100px;
+    width: 90px;
 }
 
 .git{
@@ -123,4 +118,27 @@ img{
 
 footer{
     background-color: #2E3445;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer h2{
+    padding-bottom: 20px;
+}
+
+footer p{
+    display: inline;
+    background-color: darkblue;
+    font-size: 32px;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 5px;
+}
+
+footer p:hover{
+    font-size: 48px;
+    border-radius: 100px;
+    box-shadow: inset 0 0 10px cornflowerblue;
 }
