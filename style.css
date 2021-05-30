@@ -4,10 +4,11 @@ body{
     font-size: 18px;
 }
 
-body .main{
-    padding: 70px 25px 25px 25px;
+body main{
+    padding: 50px 25px 25px 25px;
     margin: 40px 40px 0px 40px;
     background-color: #222733;
+    height: 2200px;
 }
 
 header{
@@ -38,6 +39,7 @@ h1 a{
 }
 
 nav{
+    font-family: 'Poppins', sans-serif;
     text-align: right;
     margin-right: 65px;
     padding: 0px;
@@ -54,6 +56,7 @@ nav a:hover{
 }
 
 h2{
+    font-size: 40px;
     text-shadow: 2px 2px 7px #777777;
 }
 
@@ -70,6 +73,15 @@ li{
     text-decoration: none;
 }
 
+article p{
+    font-size: 21px;
+}
+
+article, section{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+
 section div{
     text-align: center;
 }
@@ -79,6 +91,9 @@ section .egzam div{
     margin: 10px;
     width: 250px;
     display: inline-block;
+    border: white 5px solid;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 section div p{
@@ -118,10 +133,10 @@ img:hover{
 
 footer{
     background-color: #2E3445;
-    padding: 20px;
+    padding:  5px;
     padding-bottom: 50px;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 0px 40px 20px 40px ;
 }
 
 footer h2{
@@ -129,12 +144,14 @@ footer h2{
 }
 
 footer p{
+    font-family: 'Poppins', sans-serif;
     display: inline;
     background-color: darkblue;
     font-size: 32px;
     border-radius: 20px;
     padding: 25px;
     margin: 5px;
+    font-weight: bold;
 }
 
 footer p:hover{
