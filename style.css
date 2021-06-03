@@ -188,7 +188,7 @@ img:hover{
 }
 
 .slide-btn.active, .slide-btn:hover {
-    color: #ed8e6c;
+    color: red;
     cursor: pointer;
 }
 
@@ -199,7 +199,7 @@ button {
 }
 
 button.modal-close {
-    background-color: #ed8e6c;
+    background-color: red;
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -212,7 +212,7 @@ button.modal-close {
 }
     
 button.modal-close:hover {
-    background-color: #ed612f;
+    background-color: red;
 }
 
 footer{
