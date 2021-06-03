@@ -6,9 +6,8 @@ body{
 
 body main{
     padding: 50px 25px 25px 25px;
-    margin: -10px 40px 0px 40px;
+    margin: -10px 140px 0px 140px;
     background-color: #222733;
-    height: 2200px;
 }
 
 header{
@@ -37,6 +36,11 @@ h1 a{
     text-decoration: none;
     margin: 0px;
     padding: 0px;
+    
+}
+
+h1 a:hover{
+    text-shadow:  2px 2px 7px #ff2400;
 }
 
 nav{
@@ -53,7 +57,6 @@ a{
 
 nav a:hover{
     color: crimson;
-    text-decoration: underline;
 }
 
 h2{
@@ -127,23 +130,97 @@ section div figure{
 img{
     height: 80px;
     width: 70px;
+    padding: 10px;
 }
 
 img:hover{
     height: 100px;
     width: 90px;
+    padding: 0px;
 }
 
 .git{
-    width: 120px;
+    width: 140px;
+}
+
+.git:hover{
+    width: 150px;
+}
+
+.slider {
+    margin: 0px auto 30px auto;
+}
+  
+.slide-viewer {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 430px;
+}
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.slide-buttons {
+    text-align: center;
+}
+  
+.slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+}
+
+.slide-btn.active, .slide-btn:hover {
+    color: #ed8e6c;
+    cursor: pointer;
+}
+
+button {
+    font-size: 90%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+button.modal-close {
+    background-color: #ed8e6c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 7px 10px 9px 10px;
+    margin: 10px 0px 0px 0px;
+    display: inline-block;
+    float: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+    
+button.modal-close:hover {
+    background-color: #ed612f;
 }
 
 footer{
     background-color: #2E3445;
-    padding:  5px;
-    padding-bottom: 50px;
+    padding: 2px 0px 50px 0px;
     text-align: center;
-    margin: 0px 40px 20px 40px ;
+    margin: 0px 140px 40px 140px;
+    height: 200px;
 }
 
 footer h2{
