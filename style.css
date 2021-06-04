@@ -155,7 +155,7 @@ img:hover{
     max-width: 100%;
     position: relative;
     overflow: hidden;
-    height: 430px;
+    height: 450px;
 }
 
 .slide-group {
@@ -183,7 +183,7 @@ img:hover{
     border: none;
     background: none;
     color: #000;
-    font-size: 200%;
+    font-size: 150%;
     line-height: 0.5em;
 }
 
@@ -219,7 +219,7 @@ footer{
     background-color: #2E3445;
     padding: 2px 0px 50px 0px;
     text-align: center;
-    margin: 0px 140px 40px 140px;
+    margin: 0px 15% 40px 15%;
     height: 200px;
 }
 
