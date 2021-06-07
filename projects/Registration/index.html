@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zadanie</title>
+    <link type="text/css" rel="stylesheet" href="layout.css">
+</head>
+<body>
+<div class="main">
+    <h1>Rejestracja uczestnictwa w szkoleniu</h1>
+<form method="POST" action="D:\xampp\htdocs\4ct\serwer.php">
+    <fieldset>
+        <fieldset>
+            <label>Imię uczestnika:</label>
+            <input type="text" id="name" name="name" required autocomplete="off">
+        </fieldset>
+        <fieldset>
+            <label>Nazwisko uczestnika:</label>
+            <input type="text" id="fname" name="fname" required autocomplete="off">
+        </fieldset>
+        <fieldset>
+            <label>Email uczestnika:</label>
+            <input type="email" id="email" name="email" required autocomplete="off">
+        </fieldset>
+        <fieldset>
+            <label>Wybór szkolenia:</label>
+            <select name="" id="">
+                <option value="">Python poziom podstawowy</option>
+                <option value="">Python poziom zaawansowany</option>
+                <option value="">jQuery oraz AJAX</option>
+                <option value="">SQL dla serwera ORACLE</option>
+            </select>
+        </fieldset>
+        <fieldset>            
+        <p><input type="checkbox" id="check1" name="check1">Wyrażam zgodę na otrzymywanie od INFO-SOFT i innych podmiotów z Grupy komunikacji marketingowej, której celem jest w szczególności promocja szkoleń oferowanych przez te podmioyt przy wykoszystaniu moich danych.</p>    
+        <p><input type="checkbox" id="check1" name="check1">Wyrażam wobec firmy INFO-SOFT oraz innych podmiotów z Grupy SOFT zgody na przetwarzanie w celach marketingowych, w tym poprzez profilowanie, moich danych osobowych pozyskanych w trakcie zamawiania kurus/szkolenia.</p>  
+        </fieldset>
+        <fieldset >
+            <input type="reset" class="button" value="Reset" id="reset">
+            <input type="submit" class="button" value="Wyślij" id="button">
+        </fieldset>
+    </fieldset>
+</form>
+<script src="script.js"></script>
+</div>
+</body>
+</html>
