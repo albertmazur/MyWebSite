@@ -130,13 +130,13 @@ section div figure{
     display: inline-block;
 }
 
-img{
+.skill img{
     height: 80px;
     width: 70px;
     padding: 10px;
 }
 
-img:hover{
+.skill img:hover{
     height: 100px;
     width: 90px;
     padding: 0px;
@@ -218,12 +218,17 @@ button.modal-close:hover {
     background-color: red;
 }
 
+#projects img{
+    width: 25%;
+    height: 25%;
+    padding: 2%;
+}
+
 footer{
     background-color: #2E3445;
-    padding: 1% 0% 2% 0%;
+    padding: 1% 0% 0% 0%;
     text-align: center;
     margin: 0px 7% 0% 7%;
-    height: 200px;
 }
 
 footer img{
