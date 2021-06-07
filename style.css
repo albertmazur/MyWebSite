@@ -94,7 +94,7 @@ section div{
 section .egzam div{
     text-align: center;
     margin: 10px;
-    width: 250px;
+    width: 30%;
     display: inline-block;
     border: white 5px solid;
     border-radius: 10px;
@@ -193,7 +193,7 @@ img:hover{
 }
 
 button {
-    font-size: 90%;
+    font-size: 50%;
     text-align: left;
     text-transform: uppercase;
 }
